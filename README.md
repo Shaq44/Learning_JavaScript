@@ -1,15 +1,31 @@
+## Learning_JavaScript
+> wax on, wax off. fundamentals located HERE
+____________________________
+
+#### Repo for my JS training 
+* Track progress
+* Share my work
+* Get feedback
+
+#### Includes:
+* Shiffman's [Coding Challenges][1]
+* Exercises from <_enter book's name here_>
+* a README.md that uses Markdown syntax
+
+_________________________________
+
+Comments and suggestions are greatly appreciated.
 
 
-I'm learning JavaScript. 
+
+
+_________________________________
+
+[1]:https://thecodingtrain.com/CodingChallenges/
 
 
 
-I'm using this repo as a way to track my progress and share my work.
 
 
 
-This Repo will include some challenges from Daniel Shiffman videos and some from books that i'm reading.
 
-
-
-Any comments or suggestions are greatly appreciated.   
