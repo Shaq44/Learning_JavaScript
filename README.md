@@ -9,7 +9,7 @@ ____________________________
 
 #### Includes:
 * Shiffman's [Coding Challenges][1]
-* Exercises from <Eloquent Javascript Second Edition by Marijn Havaerbeke>
+* Exercises from Eloquent Javascript Second Edition by Marijn Havaerbeke
 * a README.md that uses Markdown syntax
 
 _________________________________
