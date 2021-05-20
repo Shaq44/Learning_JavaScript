@@ -1,4 +1,4 @@
-/*These Exercises are from chapter 1 in the book Eliquent Javascript
+/*These Exercises are from chapter 1 in the book Eloquent Javascript
 Second Edition*/
 
 
