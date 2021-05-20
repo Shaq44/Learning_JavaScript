@@ -1,3 +1,7 @@
+/*These Exercises are from chapter 1 in the book Eliquent Javascript
+Second Edition*/
+
+
 /*this exercise is a loop exercise that creates a triangle using # Symbol*/
 
 for(var i='#';i.length<8;i+='#'){
