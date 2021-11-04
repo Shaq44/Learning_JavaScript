@@ -1,7 +1,7 @@
 
 body{
     font-family:lato,"Sans Serif";
-    background-color: rgb(65, 64, 64);
+    background-color:Black;
     color:black;
     align-items:center;
     overflow-x: hidden;
@@ -10,7 +10,7 @@ body{
 }
 
 .box{
-background-color:white;
+background-color:rgb(212, 209, 209);
 transform-origin: top left;
 transition: transform 0.5s;
 width: 100vw;
@@ -23,7 +23,7 @@ padding:50px;
 }
 
 .box.show-nav + nav li{
-    transform: translate(0);
+    transform: translateX(0);
     transition-delay:0.3s;
 }
 
@@ -31,11 +31,13 @@ nav{
     position:fixed;
 bottom:40px;
 left:0;
+z-index:100;
 }
 
 nav ul{
     list-style-type:none;
     padding-left:30px;
+    font-family: "Audiowide";
 
 }
  nav ul li{
@@ -44,6 +46,7 @@ nav ul{
      margin:40px 0;
      transform:translateX(-100%);
      transition:transform 0.4s ease-in;
+     font-family: "Audiowide";
  }
 
  nav ul li+li{
@@ -64,10 +67,20 @@ nav ul{
     align-items:center;
     justify-content:center;
     margin:25px auto;
+    font-family: "Audiowide";
 }
 
 .content h1{
     margin:0px;
+}
+
+.content img{
+    max-width: 100%;
+}
+
+.content {
+    max-width: 500px;
+    margin: 50px auto;
 }
 
 .content small{
@@ -78,21 +91,24 @@ nav ul{
 .dog{
     height:300px;
     width:300px;
+    object-fit: cover;
+    object-position: 50% 50%;
 }
 
 .circle-box{
     position:fixed;
     top:-100px;
     left:-100px;
+    
 }
 
 .circle{
-    background-color:pink;
+    background-color:rgb(53, 83, 53);
     height: 200px;
     width:200px;
     border-radius:50%;
     position:relative;
-    transition: transform 0.5s linear;
+    transition: transform 0.5s;
 
 }
 
@@ -100,13 +116,12 @@ nav ul{
     transform: rotate(-70deg);
 }
 
-.circle button{
+ .circle button {
 position:absolute;
 top:50%;
 left:50%;
 height:100px; 
 background: transparent;
-background-color:white;
 border:0;
 font-size:26px;
 color:black;
@@ -122,7 +137,8 @@ cursor:pointer;
 }
 
 .circle button#close{
-    top:60%;
-    transform: rotate(100deg);
-    transform-origin: top left;
+    top:90%;
+    right:100%;
+    transform: rotate(90deg);
+    transform-origin: top right;
 }
